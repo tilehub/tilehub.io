@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -135,11 +135,9 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+    background-size: cover;
+    background-position: center 60%;
+}
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -213,15 +211,20 @@ header.masthead {
   margin-bottom: 50px;
   text-align: center; }
   .team-member img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid #fff; }
+      width: 196px;
+      height: 196px;
+      border: 4px solid #fff;
+  }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
+
+.team-member .social-buttons {
+    font-size: 2em;
+}
 
 .text-primary {
   color: #1a7461 !important; }
